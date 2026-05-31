@@ -53,12 +53,14 @@
             "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
         },
         {
-            "type": "os",
+            "type": "custom",
+            "format": "Arch Linux x86_64",
             "key": " OS",
             "keyColor": "yellow"
         },
         {
-            "type": "kernel",
+            "type": "custom",
+            "format": "Linux 7.0.10-2",
             "key": "│ ├",
             "keyColor": "yellow"
         },
