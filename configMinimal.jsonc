@@ -11,12 +11,12 @@
   },
   "logo": {
         "type": "builtin",
-        "height": 30,
+        "height": 10,
         "width": 30,
         "padding": {
             "top": 3,
             "left": 3,
-            "bottom": 5
+            "bottom": 1
         }
     },
   "modules": [
@@ -30,7 +30,7 @@
     {
       "type": "kernel",
       "key": "ker",
-      "keyColor": "green"
+      "keyColor": "yellow"
     },
     {
       "type": "packages",
@@ -40,13 +40,13 @@
     {
       "type": "shell",
       "key": "sh",
-      "keyColor": "blue",
+      "keyColor": "red",
       "format": "{pretty-name}"
     },
     {
       "type": "wm",
       "key": "wm",
-      "keyColor": "red",
+      "keyColor": "blue",
       "format": "{pretty-name}"
     },
     {
@@ -57,7 +57,7 @@
     {
       "type": "cpu",
       "key": "cpu",
-      "keyColor": "red",
+      "keyColor": "magenta",
       "format": "{name}"
     },
     {
@@ -72,7 +72,7 @@
     {
       "type": "memory",
       "key": "ram",
-      "keyColor": "yellow",
+      "keyColor": "cyan",
       "format": "{used} / {total}"
     },
     {
