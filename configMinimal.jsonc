@@ -22,10 +22,10 @@
   "modules": [
     "break",
     {
-      "type": "os",
+      "type": "custom",
       "key": "os",
+      "format": "Arch (btw)",
       "keyColor": "yellow",
-      "format": "{name}"
     },
     {
       "type": "kernel",
@@ -46,6 +46,12 @@
     {
       "type": "wm",
       "key": "wm",
+      "keyColor": "blue",
+      "format": "{pretty-name}"
+    },
+    {
+      "type": "de",
+      "key": "de",
       "keyColor": "blue",
       "format": "{pretty-name}"
     },
@@ -73,7 +79,7 @@
       "type": "memory",
       "key": "ram",
       "keyColor": "cyan",
-      "format": "{used} / {total}"
+      "format": "{used} / 32GB"
     },
     {
       "type": "disk",
@@ -82,12 +88,12 @@
       "folders": [
         "/"
       ],
-      "format": "{size-used} / {size-total}"
+      "format": "{size-used} / 1TB"
     },
     "break",
     {
       "type": "custom",
-      "format": "\u001b[33m󰮯 \u001b[32m󰊠 \u001b[34m󰊠 \u001b[31m󰊠 \u001b[36m󰊠 \u001b[35m󰊠 \u001b[37m󰊠 \u001b[97m󰊠"
+      "format": "\u001b[33m󰮯 \u001b[32m󰊠 \u001b[34m󰊠 \u001b[31m󰊠 \u001b[36m󰊠 \u001b[35m󰊠 \u001b[37m󰊠"
     }
   ]
 }
