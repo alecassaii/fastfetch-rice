@@ -10,7 +10,7 @@
     "separator": ""
   },
   "logo": {
-        "type": "builtin",
+        "type": "small",
         "height": 10,
         "width": 30,
         "padding": {
@@ -22,10 +22,9 @@
   "modules": [
     "break",
     {
-      "type": "custom",
+      "type": "os",
       "key": "os",
-      "format": "Arch (btw)",
-      "keyColor": "yellow",
+      "keyColor": "yellow"
     },
     {
       "type": "kernel",
@@ -79,7 +78,7 @@
       "type": "memory",
       "key": "ram",
       "keyColor": "cyan",
-      "format": "{used} / 32GB"
+      "format": "{used} / {total}"
     },
     {
       "type": "disk",
@@ -88,7 +87,7 @@
       "folders": [
         "/"
       ],
-      "format": "{size-used} / 1TB"
+      "format": "{size-used} / {size-total}"
     },
     "break",
     {
